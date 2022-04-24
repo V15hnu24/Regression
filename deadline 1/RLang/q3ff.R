@@ -122,5 +122,3 @@ data <- read.csv("C:/Users/799vi/Desktop/vish_final1/summation.csv")
 df <- data %>% select(gdp,beds,taps,cash_i,cereal_i,cc_i,pulse_i,oil_i,hort_i)
 rg <- lm(data$v40~., df)
 summary(rg)
-
-
